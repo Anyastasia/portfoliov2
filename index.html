@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0201f41cb3.js" crossorigin="anonymous"></script>
+    
+    <title>Portfolio</title>
+
+</head>
+<body>
+    <section class="home flex flex-column flex-center" id="home">
+        <p class="name">
+            John<br>
+            Christian<br>
+            Buenaflor
+        </p>
+
+        <div class="icons center">
+            <span><a href="https://github.com/Anyastasia" aria-label="Github Profile" target="_blank" rel="noreferrer noopener">
+                <i class="fa-brands fa-github"></i>
+            </a></span>
+            <span>
+                <a href="">
+                    <i class="fa-brands fa-linkedin" aria-label="Linkedin Profile" target="_blank" rel="noreferrer noopener"></i>
+                </a>
+            </span>
+        </div>
+
+        <div class="arrow-down">
+            <!-- <span><i class="fa-solid fa-arrow-down"></i></span> -->
+            <button id="scroll-down-btn"><i class="fa-solid fa-arrow-down" aria-label="Scroll down"></i></button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="flex flex-center about-header">
+            <h2>about</h2>
+        </div>
+
+        <div class="about-description">
+            <p class="mb-1">Started interest in programming during early days in high school because I've been tinkering my android phone back then (where rooting android is fun during that time, good times). Which led me to taking Computer Science, and eventually taking up interest is web development, in which where I am now.</p>
+            <p>In my free time, I <a href="https://www.quora.com/What-is-the-meaning-of-Linux-ricing">rice</a> my linux setup my personal laptop.</p>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="flex flex-center about-header">projects</h2>
+
+        <div class="project-container">
+            <!-- <div class="project-item p-1">
+                <div class="project-image-container">
+                    <img src="images/faketype.png" alt="Faketype">
+                </div> 
+
+                <div class="pi-1">
+                    <div class="mbe-1">
+                        <p class="project-title mbs-1">Title</p>
+                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde atque facere perferendis ab corporis aut quidem doloremque veniam praesentium distinctio.</p>
+                    </div>
+    
+                    <div class="tags-container">
+                        <span class="tags">tags-container</span>
+                    </div>
+                </div>
+            </div> -->
+
+            <a href="https://faketype.vercel.app/" class="project-item-link" target="_blank" rel="noreferrer noopener">
+                <span class="project-link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+
+                <div class="project-item p-1">
+                    <div class="project-image-container">
+                        <img src="images/faketype.png" alt="Faketype">
+                    </div> 
+    
+                    <div class="project-title-desc-container">
+                        <div class="mbe-1">
+                            <p class="project-title mbs-1">Faketype</p>
+                            <p class="project-description">Typing test that using made up words.</p>
+                        </div>
+        
+                        <div class="tags-container">
+                            <span class="tags">VueJS</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- <a href="https://github.com/Anyastasia/faketype" class="project-item-link" target="_blank" rel="noreferrer noopener">
+                <span class="project-link-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+
+                <div class="project-item p-1">
+                    <div class="project-image-container">
+                        <img src="images/faketype.png" alt="Faketype">
+                    </div> 
+    
+                    <div class="project-title-desc-container">
+                        <div class="mbe-1">
+                            <p class="project-title mbs-1">Faketype</p>
+                            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime nemo nesciunt, dolor incidunt in laborum quam? Commodi suscipit numquam, minus reprehenderit incidunt eius tenetur debitis!</p>
+                        </div>
+        
+                        <div class="tags-container">
+                            <span class="tags">VueJS</span>
+                        </div>
+                    </div>
+                </div>
+            </a> -->
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 John Christian Buenaflor</p>
+        <p>Mady by yours truly using HTML/CSS/Javascript</p>
+        <p>Code available in <a href="https://github.com/Anyastasia">Github</a></p>
+        
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
